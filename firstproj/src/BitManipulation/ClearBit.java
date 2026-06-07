@@ -1,14 +1,14 @@
 import java.util.*;
-public class SetBit {
+public class ClearBit {
     public static void main(String[] arg){
         Scanner sc= new Scanner(System.in);
         int n= sc.nextInt();
-        int pos=1;
+        int pos=2;
         int bitMask=1<<pos;
-        int newNumber = bitMask | n;
+        int newNumber= (~(bitMask)& n);
         System.out.println(newNumber);
-
     }
-
-
+    
 }
+
+
