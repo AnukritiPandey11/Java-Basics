@@ -11,6 +11,7 @@ public class BubbleSort {
             int x=sc.nextInt();
             arr[i]=x;                                        
         }
+        //time complexity =O(n^2)
         //Bubble sort
         
         for(int i=0;i<n-1;i++)
@@ -24,16 +25,12 @@ public class BubbleSort {
                     arr[j+1]=temp;
                 }
             }
-                
-                 
-
-
         }
         System.out.println("Sorted Array");
         for(int i=0; i<n;i++)
         {
             
-            System.out.println(arr[i]);
+            ystem.out.println(arr[i]);
         }
         sc.close();
 
