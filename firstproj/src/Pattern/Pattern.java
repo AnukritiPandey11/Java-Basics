@@ -32,7 +32,8 @@ public class Pattern {
             for(j=1;j<=n-i+1;j++)
                 System.out.print("*");
             System.out.println();
-        }    
+        }   
+        sc.close(); 
     }
 }
 

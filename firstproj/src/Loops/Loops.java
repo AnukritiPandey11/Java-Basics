@@ -23,7 +23,7 @@ public class Loops {
         
          
 
-
+sc.close();
     }
     
 } 

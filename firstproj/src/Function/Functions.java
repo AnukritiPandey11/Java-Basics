@@ -19,6 +19,6 @@ public class Functions{
         System.out.print("the sum of odd numbers from 1 to n is \t");
         System.out.println(sum);
 
-
+sc.close();
     }
 }

@@ -23,5 +23,6 @@ public class UpdateBit {
         else{
             System.out.println("wrong choice");
         }
+        sc.close();
     }
 }

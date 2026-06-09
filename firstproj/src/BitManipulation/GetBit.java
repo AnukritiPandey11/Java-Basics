@@ -1,4 +1,3 @@
-import java.util.*;
 public class GetBit {
     public static void main(String[] arg){
         int n = 5;
@@ -10,6 +9,7 @@ public class GetBit {
             System.out.println("bit was 1");
 
         }
+       
 
     }
 }

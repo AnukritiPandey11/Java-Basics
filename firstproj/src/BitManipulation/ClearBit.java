@@ -1,3 +1,4 @@
+
 import java.util.*;
 public class ClearBit {
     public static void main(String[] arg){
@@ -7,6 +8,7 @@ public class ClearBit {
         int bitMask=1<<pos;
         int newNumber= (~(bitMask)& n);
         System.out.println(newNumber);
+        sc.close();
     }
     
 }

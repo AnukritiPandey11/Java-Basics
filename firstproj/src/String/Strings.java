@@ -11,6 +11,6 @@ public class Strings {
         }
         System.out.println("original string-"+ name);
         System.out.println("reversed string- "+ nameRev);
-
+        sc.close();
     }
 }
